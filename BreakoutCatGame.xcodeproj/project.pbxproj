@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267DB5381C1F584E00468624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DB5371C1F584E00468624 /* main.m */; };
+		267DB53B1C1F584E00468624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DB53A1C1F584E00468624 /* AppDelegate.m */; };
+		267DB53E1C1F584E00468624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DB53D1C1F584E00468624 /* ViewController.m */; };
+		267DB5411C1F584E00468624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267DB53F1C1F584E00468624 /* Main.storyboard */; };
+		267DB5431C1F584E00468624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267DB5421C1F584E00468624 /* Assets.xcassets */; };
+		267DB5461C1F584E00468624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267DB5441C1F584E00468624 /* LaunchScreen.storyboard */; };
+		267DB5511C1F584E00468624 /* BreakoutCatGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DB5501C1F584E00468624 /* BreakoutCatGameTests.m */; };
+		267DB55C1C1F584E00468624 /* BreakoutCatGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DB55B1C1F584E00468624 /* BreakoutCatGameUITests.m */; };
+		267DB56A1C1F589600468624 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267DB5691C1F589600468624 /* background.jpg */; };
+		267DB56E1C1F5F6200468624 /* launchscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267DB56D1C1F5F6200468624 /* launchscreen.jpg */; };
+		267DB5751C204B7000468624 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DB5741C204B7000468624 /* GameViewController.m */; };
+		267DB5771C204E5A00468624 /* catball.png in Resources */ = {isa = PBXBuildFile; fileRef = 267DB5761C204E5A00468624 /* catball.png */; };
+		267DB5791C20546B00468624 /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 267DB5781C20546B00468624 /* paddle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		267DB54D1C1F584E00468624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267DB52B1C1F584E00468624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267DB5321C1F584E00468624;
+			remoteInfo = BreakoutCatGame;
+		};
+		267DB5581C1F584E00468624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 267DB52B1C1F584E00468624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267DB5321C1F584E00468624;
+			remoteInfo = BreakoutCatGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		267DB5331C1F584E00468624 /* BreakoutCatGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakoutCatGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		267DB5371C1F584E00468624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		267DB5391C1F584E00468624 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		267DB53A1C1F584E00468624 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		267DB53C1C1F584E00468624 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		267DB53D1C1F584E00468624 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		267DB5401C1F584E00468624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		267DB5421C1F584E00468624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		267DB5451C1F584E00468624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		267DB5471C1F584E00468624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267DB54C1C1F584E00468624 /* BreakoutCatGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakoutCatGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		267DB5501C1F584E00468624 /* BreakoutCatGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakoutCatGameTests.m; sourceTree = "<group>"; };
+		267DB5521C1F584E00468624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267DB5571C1F584E00468624 /* BreakoutCatGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakoutCatGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		267DB55B1C1F584E00468624 /* BreakoutCatGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakoutCatGameUITests.m; sourceTree = "<group>"; };
+		267DB55D1C1F584E00468624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267DB5691C1F589600468624 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		267DB56D1C1F5F6200468624 /* launchscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchscreen.jpg; sourceTree = "<group>"; };
+		267DB5731C204B7000468624 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		267DB5741C204B7000468624 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		267DB5761C204E5A00468624 /* catball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catball.png; sourceTree = "<group>"; };
+		267DB5781C20546B00468624 /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267DB5301C1F584E00468624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267DB5491C1F584E00468624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267DB5541C1F584E00468624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267DB52A1C1F584E00468624 = {
+			isa = PBXGroup;
+			children = (
+				267DB5351C1F584E00468624 /* BreakoutCatGame */,
+				267DB54F1C1F584E00468624 /* BreakoutCatGameTests */,
+				267DB55A1C1F584E00468624 /* BreakoutCatGameUITests */,
+				267DB5341C1F584E00468624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267DB5341C1F584E00468624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267DB5331C1F584E00468624 /* BreakoutCatGame.app */,
+				267DB54C1C1F584E00468624 /* BreakoutCatGameTests.xctest */,
+				267DB5571C1F584E00468624 /* BreakoutCatGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267DB5351C1F584E00468624 /* BreakoutCatGame */ = {
+			isa = PBXGroup;
+			children = (
+				267DB5391C1F584E00468624 /* AppDelegate.h */,
+				267DB53A1C1F584E00468624 /* AppDelegate.m */,
+				267DB53C1C1F584E00468624 /* ViewController.h */,
+				267DB53D1C1F584E00468624 /* ViewController.m */,
+				267DB53F1C1F584E00468624 /* Main.storyboard */,
+				267DB5731C204B7000468624 /* GameViewController.h */,
+				267DB5741C204B7000468624 /* GameViewController.m */,
+				267DB5421C1F584E00468624 /* Assets.xcassets */,
+				267DB5441C1F584E00468624 /* LaunchScreen.storyboard */,
+				267DB5471C1F584E00468624 /* Info.plist */,
+				267DB5361C1F584E00468624 /* Supporting Files */,
+			);
+			path = BreakoutCatGame;
+			sourceTree = "<group>";
+		};
+		267DB5361C1F584E00468624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				267DB5781C20546B00468624 /* paddle.png */,
+				267DB5761C204E5A00468624 /* catball.png */,
+				267DB5691C1F589600468624 /* background.jpg */,
+				267DB56D1C1F5F6200468624 /* launchscreen.jpg */,
+				267DB5371C1F584E00468624 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		267DB54F1C1F584E00468624 /* BreakoutCatGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				267DB5501C1F584E00468624 /* BreakoutCatGameTests.m */,
+				267DB5521C1F584E00468624 /* Info.plist */,
+			);
+			path = BreakoutCatGameTests;
+			sourceTree = "<group>";
+		};
+		267DB55A1C1F584E00468624 /* BreakoutCatGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				267DB55B1C1F584E00468624 /* BreakoutCatGameUITests.m */,
+				267DB55D1C1F584E00468624 /* Info.plist */,
+			);
+			path = BreakoutCatGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267DB5321C1F584E00468624 /* BreakoutCatGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267DB5601C1F584E00468624 /* Build configuration list for PBXNativeTarget "BreakoutCatGame" */;
+			buildPhases = (
+				267DB52F1C1F584E00468624 /* Sources */,
+				267DB5301C1F584E00468624 /* Frameworks */,
+				267DB5311C1F584E00468624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakoutCatGame;
+			productName = BreakoutCatGame;
+			productReference = 267DB5331C1F584E00468624 /* BreakoutCatGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		267DB54B1C1F584E00468624 /* BreakoutCatGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267DB5631C1F584E00468624 /* Build configuration list for PBXNativeTarget "BreakoutCatGameTests" */;
+			buildPhases = (
+				267DB5481C1F584E00468624 /* Sources */,
+				267DB5491C1F584E00468624 /* Frameworks */,
+				267DB54A1C1F584E00468624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267DB54E1C1F584E00468624 /* PBXTargetDependency */,
+			);
+			name = BreakoutCatGameTests;
+			productName = BreakoutCatGameTests;
+			productReference = 267DB54C1C1F584E00468624 /* BreakoutCatGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		267DB5561C1F584E00468624 /* BreakoutCatGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267DB5661C1F584E00468624 /* Build configuration list for PBXNativeTarget "BreakoutCatGameUITests" */;
+			buildPhases = (
+				267DB5531C1F584E00468624 /* Sources */,
+				267DB5541C1F584E00468624 /* Frameworks */,
+				267DB5551C1F584E00468624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267DB5591C1F584E00468624 /* PBXTargetDependency */,
+			);
+			name = BreakoutCatGameUITests;
+			productName = BreakoutCatGameUITests;
+			productReference = 267DB5571C1F584E00468624 /* BreakoutCatGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267DB52B1C1F584E00468624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Benjamin Soung";
+				TargetAttributes = {
+					267DB5321C1F584E00468624 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5668M8G28J;
+					};
+					267DB54B1C1F584E00468624 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5668M8G28J;
+						TestTargetID = 267DB5321C1F584E00468624;
+					};
+					267DB5561C1F584E00468624 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5668M8G28J;
+						TestTargetID = 267DB5321C1F584E00468624;
+					};
+				};
+			};
+			buildConfigurationList = 267DB52E1C1F584E00468624 /* Build configuration list for PBXProject "BreakoutCatGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 267DB52A1C1F584E00468624;
+			productRefGroup = 267DB5341C1F584E00468624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267DB5321C1F584E00468624 /* BreakoutCatGame */,
+				267DB54B1C1F584E00468624 /* BreakoutCatGameTests */,
+				267DB5561C1F584E00468624 /* BreakoutCatGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267DB5311C1F584E00468624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267DB56E1C1F5F6200468624 /* launchscreen.jpg in Resources */,
+				267DB5771C204E5A00468624 /* catball.png in Resources */,
+				267DB5461C1F584E00468624 /* LaunchScreen.storyboard in Resources */,
+				267DB56A1C1F589600468624 /* background.jpg in Resources */,
+				267DB5431C1F584E00468624 /* Assets.xcassets in Resources */,
+				267DB5791C20546B00468624 /* paddle.png in Resources */,
+				267DB5411C1F584E00468624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267DB54A1C1F584E00468624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267DB5551C1F584E00468624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267DB52F1C1F584E00468624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267DB5751C204B7000468624 /* GameViewController.m in Sources */,
+				267DB53E1C1F584E00468624 /* ViewController.m in Sources */,
+				267DB53B1C1F584E00468624 /* AppDelegate.m in Sources */,
+				267DB5381C1F584E00468624 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267DB5481C1F584E00468624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267DB5511C1F584E00468624 /* BreakoutCatGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267DB5531C1F584E00468624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267DB55C1C1F584E00468624 /* BreakoutCatGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		267DB54E1C1F584E00468624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267DB5321C1F584E00468624 /* BreakoutCatGame */;
+			targetProxy = 267DB54D1C1F584E00468624 /* PBXContainerItemProxy */;
+		};
+		267DB5591C1F584E00468624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267DB5321C1F584E00468624 /* BreakoutCatGame */;
+			targetProxy = 267DB5581C1F584E00468624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		267DB53F1C1F584E00468624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267DB5401C1F584E00468624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		267DB5441C1F584E00468624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267DB5451C1F584E00468624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		267DB55E1C1F584E00468624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		267DB55F1C1F584E00468624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267DB5611C1F584E00468624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakoutCatGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjamin.BreakoutCatGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		267DB5621C1F584E00468624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreakoutCatGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjamin.BreakoutCatGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		267DB5641C1F584E00468624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreakoutCatGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjamin.BreakoutCatGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakoutCatGame.app/BreakoutCatGame";
+			};
+			name = Debug;
+		};
+		267DB5651C1F584E00468624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreakoutCatGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjamin.BreakoutCatGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakoutCatGame.app/BreakoutCatGame";
+			};
+			name = Release;
+		};
+		267DB5671C1F584E00468624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreakoutCatGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjamin.BreakoutCatGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreakoutCatGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		267DB5681C1F584E00468624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreakoutCatGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjamin.BreakoutCatGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreakoutCatGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267DB52E1C1F584E00468624 /* Build configuration list for PBXProject "BreakoutCatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267DB55E1C1F584E00468624 /* Debug */,
+				267DB55F1C1F584E00468624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267DB5601C1F584E00468624 /* Build configuration list for PBXNativeTarget "BreakoutCatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267DB5611C1F584E00468624 /* Debug */,
+				267DB5621C1F584E00468624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267DB5631C1F584E00468624 /* Build configuration list for PBXNativeTarget "BreakoutCatGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267DB5641C1F584E00468624 /* Debug */,
+				267DB5651C1F584E00468624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267DB5661C1F584E00468624 /* Build configuration list for PBXNativeTarget "BreakoutCatGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267DB5671C1F584E00468624 /* Debug */,
+				267DB5681C1F584E00468624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267DB52B1C1F584E00468624 /* Project object */;
+}
